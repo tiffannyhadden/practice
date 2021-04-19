@@ -112,10 +112,8 @@
     function applyDiscount(price, discountPercentage) {
         let discountPrice = discountPercentage * price;
         return price - discountPrice;
-
     }
 
     console.log(applyDiscount(45.99, 0.12));
-    console.log("conflic test")
 
 })();
