@@ -116,7 +116,6 @@
     }
 
     console.log(applyDiscount(45.99, 0.12));
-    console.log("conflict test")
 
 
 })();
