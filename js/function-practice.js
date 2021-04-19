@@ -10,12 +10,12 @@
      * > sayHello("codeup") // returns "Hello, codeup!"
      */
 
-    function sayHello(name) {
-        return "Hello, " + name;
-    }
-
-    let helloMessage = sayHello("Tiffanny");
-    console.log(helloMessage);
+    // function sayHello(name) {
+    //     return "Hello, " + name;
+    // }
+    //
+    // let helloMessage = sayHello("Tiffanny");
+    // console.log(helloMessage);
     /**
      * TODO:
      * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -31,13 +31,13 @@
      * console.
      */
 
-    let myName = "Tiffanny";
-    console.log(sayHello(myName));
+    // let myName = "Tiffanny";
+    // console.log(sayHello(myName));
 
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
-    var random = Math.floor((Math.random() * 3) + 1);
+//     var random = Math.floor((Math.random() * 3) + 1);
 
     /**
      * TODO:
@@ -57,12 +57,12 @@
      * different result everytime you refresh the page if you are using the random
      * number)
      */
-    function isTwo(number) {
-        return number === 2;
-
-    }
-
-        console.log(isTwo(random));
+    // function isTwo(number) {
+    //     return number === 2;
+    //
+    // }
+    //
+    //     console.log(isTwo(random));
 
 
     /**
@@ -76,11 +76,11 @@
      * > calculateTip(0.25, 25.50) // returns 6.375
      * > calculateTip(0.15, 33.42) // returns 5.013
      */
-    function calculateTip(tipPercentage, totalBill) {
-        return tipPercentage * totalBill;
-
-    }
-    console.log(calculateTip(0.20, 20));
+    // function calculateTip(tipPercentage, totalBill) {
+    //     return tipPercentage * totalBill;
+    //
+    // }
+    // console.log(calculateTip(0.20, 20));
 
 
     /**
@@ -89,9 +89,9 @@
      * prompt the user for the bill total and a percentage they would like to tip,
      * then display the dollar amount they should tip
      */
-    let userBillTotal = prompt("What is the bill total?");
-    let percentage = prompt("What percentage would you like to tip?");
-    alert("This is what you should tip: " + calculateTip(userBillTotal, percentage));
+    // let userBillTotal = prompt("What is the bill total?");
+    // let percentage = prompt("What percentage would you like to tip?");
+    // alert("This is what you should tip: " + calculateTip(userBillTotal, percentage));
 
 
 
@@ -109,11 +109,40 @@
      * > applyDiscount(originalPrice, discountPercent) // 80
      * > applyDiscount(45.99, 0.12) // 40.4712
      */
-    function applyDiscount(price, discountPercentage) {
-        let discountPrice = discountPercentage * price;
-        return price - discountPrice;
+    // function applyDiscount(price, discountPercentage) {
+    //     let discountPrice = discountPercentage * price;
+    //     return price - discountPrice;
+    // }
+    //
+    // console.log(applyDiscount(45.99, 0.12));
+
+// * TODO:
+//         * Create a function named `analyzeColor` that accepts a string that is a color
+//     * name as input. This function should return a message that related to that
+//     * color. Only worry about the colors defined below, if the color passed is not
+//     * one of the ones defined below, return a message that says so
+//     *
+//     * Example:
+// *  > analyzeColor('blue') // returns "blue is the color of the sky"
+//     *  > analyzeColor('red') // returns "Strawberries are red"
+//     *  > analyzeColor('cyan') // returns "I don't know anything about cyan"
+//     *
+//     * You should use an if-else-if-else block to return different messages.
+//     *
+//     * Test your function by passing various string literals to it and
+//     * console.logging the function's return value
+
+    function analyzeColor(colorName) {
+        if(colorName === "blue") {
+            return "blue is the color of the sky";
+        } else if(colorName === "red") {
+            return "my lipstick is red";
+        } else if(colorName === "cyan") {
+            return "cyan is the color of my purse";
+        } else {
+            return colorName + " is not on my list";
+        }
     }
 
-    console.log(applyDiscount(45.99, 0.12));
-
+    console.log(analyzeColor("pink"));
 })();
