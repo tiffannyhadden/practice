@@ -145,4 +145,18 @@
     }
 
     console.log(analyzeColor("pink"));
+
+
+    // Loops 4/22/21
+    //
+    // the repetition of a process or utterance.
+    //     repetition of a mathematical or computational procedure applied to the result of a previous application, typically as a means of obtaining successively closer approximations to the solution of a problem.
+    //
+    //     everytime you do the thing again it starts a new iteration. every start of a new number is the start of the iteration. going to have an ending point. make sure you have an endpoint or you will crash your computer.
+    //
+    //     infinite loop - kept running and increasing the number example.
+
+
+
 })();
+
