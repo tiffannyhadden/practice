@@ -969,6 +969,6 @@ console.log("THIS ONE " + getLowestBalance(profiles))
 //  getAverageAge() should return the average age of all users
 //  getGenderCounts() should return gender count of users as an object: example {"m": 23, "f", 32}
 //  getAllCompanyNames() should return an array of all companies represented by the users
-//  getMostCommonEyeColor() should return the most commonly occuring eye-color.
+//  getMostCommonEyeColor() should return the most commonly eye-color.
 //  getBalancesForActiveAndNonActive() should return the balance of all non-active accounts vs. the balance of all active accounts?
 //     this last method should return an object that looks like {"active-balances": 23000, "inactive-balances": 4000} w/ different numbers.
